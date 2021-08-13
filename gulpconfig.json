@@ -1,0 +1,12 @@
+{
+  "browserSyncOptions": {
+    "proxy": "localhost/",
+    "notify": false,
+    "files": ["./js/*.min.js"]
+  },
+  "paths": {
+    "dev": "./src",
+    "dist": "./dist",
+    "distprod": "./dist-product"
+  }
+}
